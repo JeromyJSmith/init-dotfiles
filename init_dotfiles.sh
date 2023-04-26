@@ -221,7 +221,7 @@ echoerr;
 
 appendshell start
 
-prefix="~/.dotfiles"
+prefix="~/.dotbot"
 prefixfull="${prefix/\~/${HOME}}"
 
 if ! [ -d $prefixfull ]; then
